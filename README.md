@@ -1,72 +1,110 @@
-# Customer-Purchase-Behavior-Analysis
-## Customer_Purchase_Behavior_Analysis
+# Customer Purchase Behavior Analysis
 
-### Project Overview
+## Project Overview
 
-The major focus of this project revolves around analyzing customer shopping behavior to help retail businesses improve sales performance, customer satisfaction, and long-term loyalty. With the growth of multi-channel retail and changing consumer preferences, it has become essential for organizations to understand what drives purchasing decisions.
+This project analyzes customer shopping behavior for a retail business to uncover patterns that drive revenue, customer satisfaction, and loyalty. Using Python for data preprocessing, MySQL for querying, and Power BI for visualization, the analysis provides actionable insights to support data-driven business decisions.
 
-This project uses transactional customer data to uncover patterns across demographics, product categories, discounts, shipping preferences, and subscription behavior. The analysis provides a data-driven approach to identifying high-value customers, optimizing marketing strategies, and improving product performance monitoring.
-
----
-
-### Key Objectives
-
-**Customer Revenue Analysis:**
-Evaluate how revenue is distributed across gender, age groups, and customer segments to identify high-value audiences.
-
-**Discount Effectiveness:**
-Determine whether discounts drive higher spending and identify products with the highest discount dependency.
-
-**Product Performance:**
-Identify top-performing products and categories based on revenue, purchase frequency, and customer ratings.
-
-**Subscription Impact:**
-Analyze whether subscribed customers spend more and assess the relationship between repeat buyers and subscription likelihood.
-
-**Shipping Behavior Insights:**
-Compare average spending across different shipping methods to understand customer delivery preferences.
+The goal is to help the company understand **who buys, what they buy, and what influences repeat purchases**, enabling optimized marketing strategies and improved customer engagement.
 
 ---
 
-### Technical Stack
+## Business Problem
 
-**Language:** Python, SQL
-**Data Manipulation:** pandas, numpy
-**Data Visualization:** Power BI, matplotlib (optional in notebook)
-**Database:** MySQL
-**Environment:** Jupyter Notebook
+Retail management observed changes in purchasing behavior across demographics, product categories, and promotional usage.
 
----
+**Key Question:**
 
-### Methodology & Insights
-
-The project uses structured retail transaction data to perform the following analyses:
-
-**Exploratory Data Analysis (EDA):**
-Customer distribution, purchase patterns, and revenue trends were explored to understand overall business performance.
-
-**Customer Segmentation:**
-Customers were segmented into New, Returning, and Loyal groups based on previous purchases, revealing that repeat customers contribute significantly to total revenue.
-
-**Subscription Analysis:**
-Subscribed customers show higher average spending compared to non-subscribers, indicating strong potential for subscription-based retention strategies.
-
-**Product & Category Trends:**
-Clothing and key apparel items emerge as major revenue drivers, helping prioritize inventory and promotions.
-
-**Shipping & Discount Patterns:**
-Fast shipping options (Express and 2-Day) maintain slightly higher average order values, while discounts attract higher purchase volumes for specific products.
+> How can customer shopping data be leveraged to identify trends, improve engagement, and optimize marketing and product strategies?
 
 ---
 
-### Future Work
+## Dataset Summary
 
-* Implement Customer Lifetime Value (CLV) modeling
-* Build RFM (Recency, Frequency, Monetary) segmentation
-* Develop a product recommendation system
-* Add cohort and retention analysis
-* Create predictive models for purchase behavior
+* **Records:** 3,900 customers
+* **Features:** 18 columns
+* **Key Areas:**
+
+  * Customer demographics
+  * Purchase details
+  * Shopping behavior
+* **Missing Data:** ~0.95% in Review Rating (handled via median imputation)
 
 ---
 
-If you'd like, I can next generate a **🔥 one-line project tagline** to make your GitHub repo stand out.
+## Tech Stack
+
+* **Python:** Pandas, NumPy
+* **Database:** MySQL
+* **ORM:** SQLAlchemy, PyMySQL
+* **Visualization:** Power BI
+
+---
+
+## Data Preparation
+
+Key preprocessing steps:
+
+* ✅ Missing value treatment using **category-wise median**
+* ✅ Column name standardization (SQL-friendly)
+* ✅ Age group segmentation
+* ✅ Purchase frequency converted to numeric days
+* ✅ Removed redundant columns
+* ✅ Loaded clean data into MySQL
+
+These steps ensured high-quality, analysis-ready data.
+
+---
+
+## Analysis Performed
+
+The project answers important business questions such as:
+
+* Revenue contribution by gender
+* Impact of discounts on high-value customers
+* Top-rated and most-purchased products
+* Spending behavior by shipping type
+* Subscription program effectiveness
+* Customer lifecycle segmentation
+* Revenue distribution by age group
+
+Advanced SQL techniques including **window functions and segmentation logic** were used.
+
+---
+
+## Power BI Dashboard
+
+An interactive executive dashboard was built featuring:
+
+* 🔹 KPI summary cards
+* 🔹 Subscriber distribution
+* 🔹 Revenue by category
+* 🔹 Top 5 most purchased products
+* 🔹 Revenue by subscription status
+* 🔹 Revenue by age group
+* 🔹 Average spend by shipping type
+* 🔹 Interactive slicers for deep analysis
+
+The dashboard enables stakeholders to perform **self-service analytics**.
+
+---
+
+## Key Insights
+
+* Loyal and repeat customers show higher subscription likelihood
+* Certain products are heavily discount-dependent
+* Premium shipping users tend to have higher order values
+* Mid-age customers contribute significant revenue
+* A small group of customers remains high spenders even with discounts
+
+---
+
+## Business Recommendations
+
+* Target high-value demographic segments
+* Expand and promote subscription programs
+* Optimize discount strategy to protect margins
+* Prioritize inventory for top-demand products
+* Use shipping behavior for upsell opportunities
+
+---
+
