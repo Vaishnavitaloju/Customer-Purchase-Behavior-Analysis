@@ -88,14 +88,28 @@ The dashboard enables stakeholders to perform **self-service analytics**.
 
 ---
 
-## Key Insights
+## 📊 Key Insights
 
-* Loyal and repeat customers show higher subscription likelihood
-* Certain products are heavily discount-dependent
-* Premium shipping users tend to have higher order values
-* Mid-age customers contribute significant revenue
-* A small group of customers remains high spenders even with discounts
+- Male customers generated the highest share of total revenue, indicating that this segment tends to spend more on average and represents a strong target for focused marketing efforts.
 
+- Customers who subscribed to the membership program generated noticeably higher revenue than non-subscribers, showing the program is working well.
+
+- Mid-age customers turned out to be the biggest revenue contributors, making them a priority demographic for targeted campaigns and personalized offers.
+
+- Customers who selected Express or premium shipping showed higher average order values, suggesting an opportunity to position faster delivery options as a revenue-driving upsell.
+
+- Several products relied heavily on discounts to generate sales, highlighting a potential risk to margins and the need for more strategic promotion planning.
+
+- A distinct group of customers used discounts but still spent above the overall average, identifying valuable, relatively price-insensitive buyers worth nurturing.
+
+- Repeat purchasers demonstrated a greater likelihood of subscribing, revealing a strong opportunity to convert loyal shoppers into long-term members.
+
+- Purchase activity remained concentrated within a small number of top-performing products and categories, indicating where inventory focus and marketing investment should be prioritized.
+
+- The overall average review rating remained healthy at approximately 3.75, reflecting generally positive customer satisfaction while still leaving room for improvement.
+
+- Purchase patterns show many customers shop weekly or fortnightly, indicating strong potential for effective loyalty and retention programs.
+  
 ---
 
 ## Business Recommendations
